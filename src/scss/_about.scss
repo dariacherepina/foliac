@@ -1,0 +1,77 @@
+.about{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: url('../img/men-computer.jpg') center center no-repeat;
+    background-size: cover;
+    @media screen  and( max-width:1024px){
+        background-position-x: 35%;
+      }
+    @media screen and(max-width: 767px) {
+        background: rgb(116,120,133);
+        background: linear-gradient(90deg, rgba(116,120,133,1) 0%, rgba(114,118,131,0.9808298319327731) 35%);
+        padding: 60px 0 ;
+    }
+}
+
+.name  {
+    font-size: 30px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    margin:0;
+}
+.subtitle{
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 400;
+    margin: 9px 0 0;
+}
+
+.info{
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 400;
+    margin-top: 43px;
+        @media screen and(max-width: 767px) {
+            margin-top: 30px;
+        }
+}
+
+.b2{
+    font-size: 14px;
+    line-height: 25px;
+    color: #3c4955;
+    font-family: "Lato";
+    font-weight: 700;
+    padding: 9px;
+    border: 2px solid #3c4955;
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 153px;
+    cursor: pointer;
+    &:hover{
+        border: 2px solid #48bf72;
+        color: #48bf72;
+        transition: all .3s ease-in;
+    }
+    @media screen and(max-width: 767px) {
+        margin: 0 auto;
+    }
+}
+
+.text_about{
+    justify-content: flex-end;
+    margin: 0;
+}
+.text_about_col{
+    @media screen and(max-width: 767px) {
+        text-align: center;
+    }
+}

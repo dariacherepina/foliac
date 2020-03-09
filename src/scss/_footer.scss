@@ -1,0 +1,81 @@
+
+footer{
+    width: 100%;
+    background-color: #3c4955;
+    margin: 0;
+    // padding: 30px 105px;
+}
+
+.footer_copy{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    padding: 60px 0 ;;
+    @media screen and(max-width: 767px){
+        font-size: 14px;
+        margin: 0;
+        padding: 20px 30px;
+    }
+}
+
+.footer__social{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @media screen and(max-width: 767px){
+        justify-content: center;
+    }
+}
+
+.social__items:not(:last-child){
+    padding-right: 40px;
+    @media screen and(max-width: 767px){
+        padding-right: 30px;
+    }
+}
+
+.social__items a{
+    display: block;
+    transition: .3s ;
+    height: 56px;
+    width: 49px;
+    @media screen and(max-width: 767px){
+      margin-bottom: 20px;
+}
+}
+
+.twitter{
+    background: url(../img/twitter.png) center center no-repeat;
+    background-size: cover;
+    &:hover{
+        background-image: url(../img/twitter-hover.png);
+        transition: .2s ease-in-out;
+    }
+}
+
+.linkedin{
+    background: url(../../build/img/linkedin.png) center center no-repeat;
+    background-size: cover;
+    &:hover{
+        background-image: url(../../build/img/linkedin-hover.png);
+    }
+}
+
+.dribble{
+    background: url(../img/dribble.png) center center no-repeat;
+    background-size: cover;
+    &:hover{
+        background-image: url(../img/dribble-hover.png);
+    }
+}
+
+.behance{
+    background: url(../img/behance.png) center center no-repeat;
+    background-size: cover;
+    &:hover{
+        background-image: url(../img/behance-hover.png);
+    }
+}

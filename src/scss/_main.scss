@@ -1,0 +1,70 @@
+.works{
+    padding-bottom: 90px;
+    @media screen and(max-width: 767px) {
+        padding-bottom: 15px;
+    }
+}
+.intro{
+    width: 100%;
+    padding-top: 292px;
+    padding-bottom: 180px;
+    background: url('../../build/img/computer.png') center center no-repeat;
+    background-size: cover;
+    @media screen and(max-width: 767px) {
+        padding-top: 235px;
+        padding-bottom: 135px;
+    }
+}
+
+
+.intro_items{
+    font-size: 46px;
+    color: #ffffff;
+    font-family: "Big John", sans-serif;
+    text-align: center;
+   
+}
+
+.intro__button_wrap{
+    font-size: 14px;
+    line-height: 25px;
+    color: #48bf72;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    padding: 9px;
+    border: 2px solid #48bf72;
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 42px;
+    transition: all .3s ease-in;
+    cursor: pointer;
+    &:hover{
+        filter: invert(.5);
+    }
+}
+.intro_descr,
+.intro__button{
+    justify-content: center;
+}
+
+
+.intro__title,
+.intro__subtitle {
+    color: #fff;
+    font-family: "Big John", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.intro__title {
+    font-size: 2.87rem;
+}
+
+.intro__subtitle {
+    font-size: 1.56rem;
+    @media screen and(max-width: 767px) {
+    font-size: 1.86rem;
+    }
+}
